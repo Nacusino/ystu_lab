@@ -22,19 +22,7 @@ switch (op)
         Console.WriteLine("Ответ: " + (first * second));
         break;
     case "/":
-<<<<<<< HEAD
             Console.WriteLine("Ответ: " + (first / second));
             break;
-=======
-        if (second == 0)
-        {
-            Console.WriteLine("Ошибка! Деление на ноль");
-        }
-        else 
-        { 
-            Console.WriteLine("Ответ: " + (first / second));
-        }
-        break;
->>>>>>> delnull
 }
 
