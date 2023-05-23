@@ -17,7 +17,14 @@ switch (op)
         Console.WriteLine("Ответ: " + (first * second));
         break;
     case "/":
-        Console.WriteLine("Ответ: " + (first / second));
+        if (second == 0)
+        {
+            Console.WriteLine("Ошибка! Деление на ноль");
+        }
+        else 
+        { 
+            Console.WriteLine("Ответ: " + (first / second));
+        }
         break;
 }
 
