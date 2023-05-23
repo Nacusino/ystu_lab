@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите первое число");
+﻿Console.WriteLine("Это приложение - простой калькулятор для математических выражений!");
+Console.WriteLine("Введите первое число");
 int first = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите операцию");
 string op = Console.ReadLine();
