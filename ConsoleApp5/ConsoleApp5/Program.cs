@@ -17,7 +17,7 @@ switch (op)
         Console.WriteLine("Ответ: " + (first * second));
         break;
     case "/":
-        Console.WriteLine("Ответ: " + (first / second));
-        break;
+            Console.WriteLine("Ответ: " + (first / second));
+            break;
 }
 
