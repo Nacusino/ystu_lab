@@ -2,7 +2,7 @@
 int first = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите операцию");
 string op = Console.ReadLine();
-if((op!="+") && (op != "-") && (op != "*") && (op != "/"))
+if((op!="+") && (op != "-") && (op != "*") && (op != "/") && (op != "%"))
 {
     Console.WriteLine("Ошибка! Неверный знак операции");
     return;
@@ -22,7 +22,10 @@ switch (op)
         Console.WriteLine("Ответ: " + (first * second));
         break;
     case "/":
-            Console.WriteLine("Ответ: " + (first / second));
-            break;
+        Console.WriteLine("Ответ: " + (first / second));
+        break;
+    case "%":
+        Console.WriteLine("Ответ: " + (first % second));
+        break;
 }
 
